@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "blog-app-96bbc",
+          "appId": "1:1030089657208:android:be8ad2d5ad05e3d1f4168d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "blog-app-96bbc",
+          "configurations": {
+            "android": "1:1030089657208:android:be8ad2d5ad05e3d1f4168d",
+            "ios": "1:1030089657208:ios:1ae32dc84e04f3bff4168d",
+            "macos": "1:1030089657208:ios:1ae32dc84e04f3bff4168d",
+            "web": "1:1030089657208:web:a5cbdff08220ef30f4168d",
+            "windows": "1:1030089657208:web:23382ab0a2c2c5e0f4168d"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

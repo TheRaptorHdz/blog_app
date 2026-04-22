@@ -1,0 +1,47 @@
+name: blog_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase - Versión compatible actual (abril 2026)
+  firebase_core: ^3.6.0          # Mantén esta por ahora (la más estable para muchos proyectos)
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_messaging: ^15.2.10   # ← Bajada a versión compatible con firebase_core ^3.x
+
+  # Otros paquetes
+  image_picker: ^1.0.7
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4     # ← Correctamente colocado aquí
+
+# ==================== CONFIGURACIÓN DE FLUTTER ====================
+flutter:
+  uses-material-design: true
+
+  # Assets (descomenta y agrega cuando necesites)
+  # assets:
+  #   - assets/icon/
+
+# ==================== ICONO DE LA APP ====================
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+  # Opcional: Para Android adaptativo (mejor calidad)
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"

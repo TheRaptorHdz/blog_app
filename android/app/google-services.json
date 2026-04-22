@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1030089657208",
+    "project_id": "blog-app-96bbc",
+    "storage_bucket": "blog-app-96bbc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030089657208:android:d1686996bc515e3bf4168d",
+        "android_client_info": {
+          "package_name": "com.blogapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlcsM8kvetuEeeW2xYYm4VKaM-xAoB21I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030089657208:android:be8ad2d5ad05e3d1f4168d",
+        "android_client_info": {
+          "package_name": "com.example.blog_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlcsM8kvetuEeeW2xYYm4VKaM-xAoB21I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
